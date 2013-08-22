@@ -1,4 +1,4 @@
-package ch2.jugger;
+package ch2.performer;
 
 import ch2.poem.Poem;
 

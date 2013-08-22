@@ -5,22 +5,22 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
-	<bean id="duke" class="ch2.jugger.Juggler">
+	<bean id="duke" class="ch2.performer.Juggler">
 		<constructor-arg value="15" />
 	</bean>
 	<bean id="sonnet29" class="ch2.poem.Sonnet29" />
 
-	<bean id="poeticDuke" class="ch2.jugger.PoeticJuggler">
+	<bean id="poeticDuke" class="ch2.performer.PoeticJuggler">
 		<constructor-arg value="10" />
 		<constructor-arg ref="sonnet29" />
 	</bean>
 
-	<bean id="kenny" class="ch2.Instrumentalist">
+	<bean id="kenny" class="ch2.performer.Instrumentalist">
 		<property name="song" value="Jingle Bells" />
 		<property name="instrument" ref="saxophone" />
 	</bean>
 
-	<bean id="sony" class="ch2.Instrumentalist" p:song="Simple Song"
+	<bean id="sony" class="ch2.performer.Instrumentalist" p:song="Simple Song"
 		p:instrument-ref="saxophone" />
 
 

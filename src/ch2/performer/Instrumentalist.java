@@ -1,4 +1,4 @@
-package ch2;
+package ch2.performer;
 
 import ch2.instrument.Instrument;
 
@@ -9,6 +9,7 @@ public class Instrumentalist implements Performer {
 
 	@Override
 	public void perform() {
+		System.out.println(getClass().getName());
 		System.out.print("Playing " + song + " : ");
 		instrument.play();
 	}

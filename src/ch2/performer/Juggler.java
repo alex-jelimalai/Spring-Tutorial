@@ -1,6 +1,5 @@
-package ch2.jugger;
+package ch2.performer;
 
-import ch2.Performer;
 
 
 public class Juggler implements Performer {

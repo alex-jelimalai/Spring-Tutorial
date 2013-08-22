@@ -3,6 +3,8 @@ package ch2;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import ch2.performer.Performer;
+
 
 public class Main {
 

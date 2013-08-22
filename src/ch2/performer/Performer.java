@@ -1,4 +1,4 @@
-package ch2;
+package ch2.performer;
 
 public interface Performer {
 	void perform();
