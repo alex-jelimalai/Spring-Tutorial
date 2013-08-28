@@ -26,4 +26,9 @@
 
 	<bean id="saxophone" class="ch2.instrument.Saxophone" />
 
+	<bean id="spel" class="ch2.SpEL">
+		<property name="count" value="#{5}"/>
+		<property name="instrument" value="#{kenny.getInstrument()}"/>
+		<property name="pi" value="#{T(java.lang.Math).PI}"/>
+	</bean>
 </beans>
