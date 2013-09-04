@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="test"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring-aop-4.0.0.M2.jar"/>
 	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring-aspects-4.0.0.M2.jar"/>
@@ -26,5 +27,6 @@
 	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/commons-logging-1.1.3.jar"/>
 	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/com.springsource.org.aopalliance-1.0.0.jar"/>
 	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/aspectjweaver-1.7.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
