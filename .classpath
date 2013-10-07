@@ -3,30 +3,33 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="test"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring-aop-4.0.0.M2.jar"/>
-	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring-aspects-4.0.0.M2.jar"/>
-	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring-beans-4.0.0.M2.jar"/>
-	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring-build-src-4.0.0.M2.jar"/>
-	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring-context-4.0.0.M2.jar"/>
-	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring-context-support-4.0.0.M2.jar"/>
-	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring-core-4.0.0.M2.jar"/>
-	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring-expression-4.0.0.M2.jar"/>
-	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring-instrument-4.0.0.M2.jar"/>
-	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring-instrument-tomcat-4.0.0.M2.jar"/>
-	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring-jdbc-4.0.0.M2.jar"/>
-	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring-jms-4.0.0.M2.jar"/>
-	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring-messaging-4.0.0.M2.jar"/>
-	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring-orm-4.0.0.M2.jar"/>
-	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring-oxm-4.0.0.M2.jar"/>
-	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring-test-4.0.0.M2.jar"/>
-	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring-tx-4.0.0.M2.jar"/>
-	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring-web-4.0.0.M2.jar"/>
-	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring-webmvc-4.0.0.M2.jar"/>
-	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring-webmvc-portlet-4.0.0.M2.jar"/>
-	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring-websocket-4.0.0.M2.jar"/>
 	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/commons-logging-1.1.3.jar"/>
-	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/com.springsource.org.aopalliance-1.0.0.jar"/>
 	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/aspectjweaver-1.7.1.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/sqlite-jdbc-3.7.2.jar"/>
+	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring/com.springsource.org.aopalliance-1.0.0.jar"/>
+	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring/spring-aop-4.0.0.M2.jar"/>
+	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring/spring-aspects-4.0.0.M2.jar"/>
+	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring/spring-beans-4.0.0.M2.jar"/>
+	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring/spring-build-src-4.0.0.M2.jar"/>
+	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring/spring-context-4.0.0.M2.jar"/>
+	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring/spring-context-support-4.0.0.M2.jar"/>
+	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring/spring-core-4.0.0.M2.jar"/>
+	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring/spring-expression-4.0.0.M2.jar"/>
+	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring/spring-instrument-4.0.0.M2.jar"/>
+	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring/spring-instrument-tomcat-4.0.0.M2.jar"/>
+	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring/spring-jdbc-4.0.0.M2.jar"/>
+	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring/spring-jms-4.0.0.M2.jar"/>
+	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring/spring-messaging-4.0.0.M2.jar"/>
+	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring/spring-orm-4.0.0.M2.jar"/>
+	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring/spring-oxm-4.0.0.M2.jar"/>
+	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring/spring-test-4.0.0.M2.jar"/>
+	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring/spring-tx-4.0.0.M2.jar"/>
+	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring/spring-web-4.0.0.M2.jar"/>
+	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring/spring-webmvc-4.0.0.M2.jar"/>
+	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring/spring-webmvc-portlet-4.0.0.M2.jar"/>
+	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/spring/spring-websocket-4.0.0.M2.jar"/>
+	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/commons-dbcp-1.4.jar"/>
+	<classpathentry kind="lib" path="E:/EclipseWorkspace/Spring-Tutorial/lib/commons-pool-1.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
