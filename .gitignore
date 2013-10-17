@@ -11,6 +11,8 @@ atlassian-ide-plugin.xml
 .settings/
 .metadata/
 
+#Project files
+lib/
 
 #Application tmp and created
 *.pdf
