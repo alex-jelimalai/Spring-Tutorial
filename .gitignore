@@ -13,7 +13,8 @@ atlassian-ide-plugin.xml
 
 #Project files
 lib/
-
+out/
+bin/
 #Application tmp and created
 *.pdf
 nbactions.xml
