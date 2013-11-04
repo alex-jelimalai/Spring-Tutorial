@@ -1,9 +1,11 @@
 package ch7;
 
 
+import ch5.SpitterService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import javax.inject.Inject;
 import java.util.Map;
 
 /**
