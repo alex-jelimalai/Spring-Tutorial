@@ -1,0 +1,51 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Spring-Tutorial:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Spring_Tutorial_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Spring-Tutorial" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="junit4" module-name="Spring-Tutorial" />
+          <element id="library" level="project" name="spring-3.2.4" />
+          <element id="library" level="project" name="spring-webflow-2.3.2" />
+          <element id="library" level="project" name="spring-integration-2.2.5" />
+          <element id="library" level="project" name="spring-ws-2.0.2" />
+          <element id="library" level="project" name="spring-security-3.1.4" />
+          <element id="library" level="project" name="spring-data-jpa-1.3.3" />
+          <element id="library" level="project" name="spring-batch-2.2.1" />
+          <element id="library" level="project" name="spring-mvc-3.2.2.RELEASE" />
+          <element id="library" level="project" name="aspectjtools-1.6.2" />
+          <element id="library" level="project" name="repository" />
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+      <element id="library" level="module" name="spring-aop-4.0.0.M2.jar" module-name="Spring-Tutorial" />
+      <element id="library" level="module" name="spring-aspects-4.0.0.M2.jar" module-name="Spring-Tutorial" />
+      <element id="library" level="module" name="spring-beans-4.0.0.M2.jar" module-name="Spring-Tutorial" />
+      <element id="library" level="module" name="spring-build-src-4.0.0.M2.jar" module-name="Spring-Tutorial" />
+      <element id="library" level="module" name="spring-context-4.0.0.M2.jar" module-name="Spring-Tutorial" />
+      <element id="library" level="module" name="spring-context-support-4.0.0.M2.jar" module-name="Spring-Tutorial" />
+      <element id="library" level="module" name="spring-core-4.0.0.M2.jar" module-name="Spring-Tutorial" />
+      <element id="library" level="module" name="spring-expression-4.0.0.M2.jar" module-name="Spring-Tutorial" />
+      <element id="library" level="module" name="spring-instrument-4.0.0.M2.jar" module-name="Spring-Tutorial" />
+      <element id="library" level="module" name="spring-instrument-tomcat-4.0.0.M2.jar" module-name="Spring-Tutorial" />
+      <element id="library" level="module" name="spring-jdbc-4.0.0.M2.jar" module-name="Spring-Tutorial" />
+      <element id="library" level="module" name="spring-jms-4.0.0.M2.jar" module-name="Spring-Tutorial" />
+      <element id="library" level="module" name="spring-messaging-4.0.0.M2.jar" module-name="Spring-Tutorial" />
+      <element id="library" level="module" name="spring-orm-4.0.0.M2.jar" module-name="Spring-Tutorial" />
+      <element id="library" level="module" name="spring-oxm-4.0.0.M2.jar" module-name="Spring-Tutorial" />
+      <element id="library" level="module" name="spring-test-4.0.0.M2.jar" module-name="Spring-Tutorial" />
+      <element id="library" level="module" name="spring-tx-4.0.0.M2.jar" module-name="Spring-Tutorial" />
+      <element id="library" level="module" name="spring-web-4.0.0.M2.jar" module-name="Spring-Tutorial" />
+      <element id="library" level="module" name="spring-webmvc-4.0.0.M2.jar" module-name="Spring-Tutorial" />
+      <element id="library" level="module" name="spring-webmvc-portlet-4.0.0.M2.jar" module-name="Spring-Tutorial" />
+      <element id="library" level="module" name="spring-websocket-4.0.0.M2.jar" module-name="Spring-Tutorial" />
+      <element id="library" level="module" name="commons-logging-1.1.3.jar" module-name="Spring-Tutorial" />
+      <element id="library" level="module" name="com.springsource.org.aopalliance-1.0.0.jar" module-name="Spring-Tutorial" />
+      <element id="library" level="module" name="aspectjweaver-1.7.1.jar" module-name="Spring-Tutorial" />
+      <element id="javaee-facet-resources" facet="Spring-Tutorial/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -11,10 +11,17 @@ atlassian-ide-plugin.xml
 .settings/
 .metadata/
 
-#Project files
-lib/
-out/
+# Output
 bin/
+!**/src/**/bin/
+target/
+!**/src/**/target/
+felix-cache/
+jacoco_reports/
+jacoco.exec
+logs/
+!**/src/**/logs/
+
 #Application tmp and created
 *.pdf
 nbactions.xml
