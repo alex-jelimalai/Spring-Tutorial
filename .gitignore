@@ -25,3 +25,4 @@ logs/
 #Application tmp and created
 *.pdf
 nbactions.xml
+*-sources.jar
