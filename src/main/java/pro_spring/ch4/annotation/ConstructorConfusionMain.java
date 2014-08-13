@@ -2,8 +2,9 @@ package pro_spring.ch4.annotation;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.support.GenericXmlApplicationContext;
 import org.springframework.stereotype.Service;
+
+import static pro_spring.ch4.annotation.AnnotationContextProvider.getContext;
 
 /**
  * @author Alexandr Jelimalai
@@ -28,11 +29,7 @@ public class ConstructorConfusionMain {
 
 
     public static void main(String[] args) {
-        GenericXmlApplicationContext context = new GenericXmlApplicationContext();
-        context.load("classpath:pro_spring/ch4/app-context-annotation.xml");
-        context.refresh();
-
-        ConstructorConfusionMain cc = context.getBean("constructorConfusion", ConstructorConfusionMain.class);
+        ConstructorConfusionMain cc = getContext().getBean("constructorConfusion", ConstructorConfusionMain.class);
         System.out.println(cc);
     }
 

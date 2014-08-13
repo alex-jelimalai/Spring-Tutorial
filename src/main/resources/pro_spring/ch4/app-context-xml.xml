@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
-	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
 
     <bean id="messageProvider" class="pro_spring.ch4.xml.HelloWorldMessageProvider"/>
     <bean id="messageRenderer" class="pro_spring.ch4.xml.StandardOutMessageRenderer">
@@ -24,4 +25,114 @@
         </constructor-arg>
     </bean>
 
+
+    <bean id="injectSimple" class="pro_spring.ch4.xml.injection.InjectSimpleMain">
+        <property name="name">
+            <value>John Smith</value>
+        </property>
+
+        <property name="age">
+            <value>35</value>
+        </property>
+
+        <property name="height">
+            <value>1.78</value>
+        </property>
+
+        <property name="programmer">
+            <value>true</value>
+        </property>
+
+        <property name="ageInSeconds">
+            <value>1103760000</value>
+        </property>
+    </bean>
+    <bean id="injectSimpleConfig" class="pro_spring.ch4.xml.InjectSimpleConfig"/>
+
+    <bean id="injectSimpleSpel" class="pro_spring.ch4.xml.injection.InjectSimpleSpelMain">
+        <property name="name">
+            <value>#{injectSimpleConfig.name}</value>
+        </property>
+
+        <property name="age">
+            <value>#{injectSimpleConfig.age+1}</value>
+        </property>
+
+        <property name="height">
+            <value>#{injectSimpleConfig.height}</value>
+        </property>
+
+        <property name="programmer">
+            <value>#{injectSimpleConfig.programmer}</value>
+        </property>
+
+        <property name="ageInSeconds">
+            <value>#{injectSimpleConfig.ageInSeconds}</value>
+        </property>
+    </bean>
+
+    <bean id="encyclopedia" name="foolworm" class="pro_spring.ch4.EncyclopediaImpl"/>
+    <bean id="oracle" name="wiseworm" class="pro_spring.ch4.BookwormOracle" p:encyclopedia-ref="encyclopedia"/>
+
+    <bean id="injectRef" class="pro_spring.ch4.xml.injection.InjectRefMain">
+        <property name="oracle">
+            <ref local="oracle"/>
+        </property>
+    </bean>
+
+
+    <bean id="target1" class="pro_spring.ch4.SimpleTarget">
+        <property name="val">
+            <ref bean="injectBeanParent"/>
+        </property>
+    </bean>
+
+    <bean id="target2" class="pro_spring.ch4.SimpleTarget">
+        <property name="val">
+            <ref local="injectBean"/>
+        </property>
+    </bean>
+
+    <bean id="target3" class="pro_spring.ch4.SimpleTarget">
+        <property name="val">
+            <ref parent="injectBean"/>
+        </property>
+    </bean>
+
+    <bean id="injectBean" class="java.lang.String">
+        <constructor-arg>
+            <value>Bean In Child</value>
+        </constructor-arg>
+    </bean>
+
+    <bean id="injectionCollection" class="pro_spring.ch4.xml.injection.CollectionInjectionMain">
+        <property name="map">
+            <map>
+                <entry key="someValue">
+                    <value>Hello World</value>
+                </entry>
+                <entry key="someBean">
+                    <ref local="oracle"/>
+                </entry>
+            </map>
+        </property>
+        <property name="props">
+            <props>
+                <prop key="firstName">Clarence</prop>
+                <prop key="secondName">Ho</prop>
+            </props>
+        </property>
+        <property name="set">
+            <set>
+                <value>Hello World !</value>
+                <ref local="oracle"/>
+            </set>
+        </property>
+        <property name="list">
+            <list>
+                <value>Hello World</value>
+                <ref local="oracle"/>
+            </list>
+        </property>
+    </bean>
 </beans>

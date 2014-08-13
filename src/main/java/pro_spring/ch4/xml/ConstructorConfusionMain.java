@@ -1,6 +1,6 @@
 package pro_spring.ch4.xml;
 
-import org.springframework.context.support.GenericXmlApplicationContext;
+import static pro_spring.ch4.xml.XmlContextProvider.getContext;
 
 /**
  * @author Alexandr Jelimalai
@@ -23,11 +23,7 @@ public class ConstructorConfusionMain {
 
 
     public static void main(String[] args) {
-        GenericXmlApplicationContext context = new GenericXmlApplicationContext();
-        context.load("classpath:pro_spring/ch4/app-context-xml.xml");
-        context.refresh();
-
-        ConstructorConfusionMain cc = context.getBean("constructorConfusion", ConstructorConfusionMain.class);
+        ConstructorConfusionMain cc = getContext().getBean("constructorConfusion", ConstructorConfusionMain.class);
         System.out.println(cc);
     }
 
