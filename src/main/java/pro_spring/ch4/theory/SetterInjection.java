@@ -1,14 +1,14 @@
-package pro_spring.ch4;
+package pro_spring.ch4.theory;
 
 /**
  * @author Alexandr Jelimalai
  */
-public class ConstructorInjection {
+public class SetterInjection {
 
     private Dependency dependency;
 
 
-    public ConstructorInjection(Dependency dependency) {
+    public void setDependency(Dependency dependency) {
         this.dependency = dependency;
     }
 }
