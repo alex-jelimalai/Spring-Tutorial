@@ -105,6 +105,7 @@ http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
         </constructor-arg>
     </bean>
 
+    <!--Inject collection example-->
     <bean id="injectionCollection" class="pro_spring.ch4.xml.injection.CollectionInjectionMain">
         <property name="map">
             <map>
@@ -134,5 +135,16 @@ http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
                 <ref local="oracle"/>
             </list>
         </property>
+    </bean>
+
+    <!--Aliases-->
+    <bean id="name1" name="name2 name3 name4,name5" class="java.lang.String"/>
+    <alias name="name1" alias="name6"/>
+
+    <!--Non singleton example-->
+    <bean id="nonSingleton" class="java.lang.String" scope="prototype">
+        <constructor-arg>
+            <value>Clarence Ho</value>
+        </constructor-arg>
     </bean>
 </beans>
